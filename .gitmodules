@@ -5,7 +5,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/datnguyeniosdev/Connect-SDK-iOS-Core
-	branch = dev
 [submodule "modules/firetv"]
 	path = modules/firetv
 	url = https://github.com/ConnectSDK/Connect-SDK-iOS-FireTV.git
