@@ -94,6 +94,7 @@ Pod::Spec.new do |s|
     sp.requires_arc = true
 
     sp.dependency 'ConnectSDK/no-arc'
+    sp.dependency 'GCDWebServer', '~> 3.2'
     sp.ios.vendored_frameworks = 'core/Frameworks/LGCast/LGCast.xcframework', 'core/Frameworks/LGCast/GStreamerForLGCast.xcframework'
     sp.preserve_paths =  'core/Frameworks/LGCast/LGCast.xcframework', 'core/Frameworks/LGCast/GStreamerForLGCast.xcframework'
   end
